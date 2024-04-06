@@ -1,0 +1,24 @@
+.footer{
+  display: flex;
+  padding:1rem 3rem;
+  flex-direction: column;
+  align-items: center;
+  gap:2rem;
+}
+.footer>hr{
+  border: 2px solid white;
+  border-radius: 2px;
+  width: 100%;
+}
+.social-links{
+  display: flex;
+  gap:4rem;
+}
+.social-links>img{
+  width:2rem;
+  height:2rem;
+  cursor: pointer;
+}
+.footer-content>p{
+  color: azure;
+}
