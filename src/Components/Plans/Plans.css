@@ -63,3 +63,16 @@ fill:white;
 .plans>:nth-child(2)>button{
   color: orange;
 }
+.plans-container>.plans-blur-1{
+  height:23px;
+  width: 33px;
+  top:6rem;
+  left:0rem;
+  background-color: #bc0000;
+}
+.plans-container>.plans-blur-2{
+  height:23px;
+  width: 33px;
+  top:10rem;
+  right:0rem;
+}
