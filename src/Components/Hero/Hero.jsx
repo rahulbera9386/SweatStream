@@ -9,7 +9,7 @@ import hero_image_back from "../../assets/hero_image_back.png"
 const Hero = () => {
   return (
     <>
-      <div className="hero">
+      <div className="hero" id="hero">
         <div className="blur hero-blur"></div>
         <div className="left-h">
           <Header />

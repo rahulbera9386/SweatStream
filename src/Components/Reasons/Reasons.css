@@ -74,3 +74,27 @@ font-weight: bold;
 .partners>img{
   width:2rem;
 }
+@media screen and (max-width:768px){
+  .reasons{
+    flex-direction: column;
+  }
+  .left-r{
+    grid-auto-rows: auto;
+    overflow: hidden;
+  }
+  .left-r>:nth-child(1)
+  {
+    width: 7rem;
+    height:17rem;
+  }
+  .left-r>:nth-child(2)
+  {
+    width: 15rem;
+    height:10rem;
+  }
+  .left-r>:nth-child(3)
+  {
+    width: 7rem;
+    height:6rem;
+  }
+}

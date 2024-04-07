@@ -21,3 +21,12 @@
   color: var(--orange);
   cursor: pointer;
 }
+@media screen and (max-width:768px) {
+  .header-menu{
+    position: fixed;
+    flex-direction: column;
+    background-color: var(--appColor);
+    right:2rem;
+    padding:2rem;
+  }
+}
